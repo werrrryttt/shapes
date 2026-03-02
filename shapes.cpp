@@ -106,7 +106,7 @@ int main() {
     pointStorage.add_item(pd2);
     std::cout << "+ added point: (" << pd2.px() << ", " << pd2.py() << ")\n";
 
-    for (int i = 0; i < pointStorage.get_size(); ++i) {
+    for (size_t i = 0; i < pointStorage.get_size(); ++i) {
         Point<double>& p = pointStorage.get_item(i);
         std::cout << "point: (" << p.px() << ", " << p.py() << ")\n";
     }
